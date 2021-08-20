@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { makeStyles } from "@material-ui/core/Styles";
+import { makeStyles } from "@material-ui/core/styles";
 import MobilLeftMenuSlider from "@material-ui/core/Drawer";
 import { Link } from "react-router-dom";
 import {
