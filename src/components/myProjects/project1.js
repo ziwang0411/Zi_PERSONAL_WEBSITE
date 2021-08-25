@@ -68,7 +68,8 @@ function ProjectCarousel(props) {
       title: "eCommerce & Management System",
       description: (
         <Typography>
-          Built with<b>Angular.js</b> Front-end and <b>Spring Boot</b> Back-end
+          Used <b>Angular.js</b> and <b>Spring Boot</b> to build a full-stack
+          e-commerce platform with <b>MySQL</b> database.
         </Typography>
       ),
       image: Home,

@@ -26,32 +26,6 @@ const useStyles = makeStyles({
 });
 const projectItems = [
   {
-    title: "eCommerce & Shop Management ",
-    button1: "Share",
-    button2: "More Info",
-    path: "/Project1",
-    image: project1,
-    description: (
-      <Typography
-        variant="body2"
-        color="textSecondary"
-        component="p"
-        align="justify"
-      >
-        <li>
-          Full-stack e-commerce web application using <b>Angular.js</b> as
-          front-end and Spring Boot as back-End.{" "}
-        </li>
-        <li>
-          Develop a <b>Spring Boot</b> back-end using <b>RESTAPIs</b> and{" "}
-          <b>MySQL</b> database, and enabled different functionalities for
-          online shopping operations (product browsing and searching, add to
-          cart, checkout, check order history, etc.)
-        </li>{" "}
-      </Typography>
-    ),
-  },
-  {
     title: "Restaurant health condition rating & review",
     button1: "Share",
     button2: "More Info",
@@ -59,18 +33,58 @@ const projectItems = [
     image: project2,
     description: (
       <Typography
-        variant="body2"
+        variant="body1"
         color="textSecondary"
         component="p"
         align="justify"
       >
         <li>
-          Developed a web application for users to review and report
-          restaurants’ health conditions and COVID-19 outbreaks.
+          Developed a Yelp-clone web application where users can add, edit
+          review and delete restaurants.
         </li>
         <li>
-          Built the application with <b>Node.js, Express, MongoDB</b>, wrote{" "}
-          <b>RESTful APIs</b> to handle HTTP requests, and deployed to Heroku.
+          Used <b>HTML/CSS/JS</b> for webpages, <b>Express + Node.js</b> for
+          RESTful APIs, and <b>MongoDB</b> for data persistence.
+        </li>
+        <li>
+          Implemented map view with Mapbox API, enabled authentication with
+          Passport.js and form validation with Joi.js
+        </li>
+        <li>
+          Deployed the application on <b>Heroku</b>. Used Mongo Atlas and
+          Cloudinary for database and file storage.
+        </li>
+      </Typography>
+    ),
+  },
+  {
+    title: "eCommerce & Shop Management ",
+    button1: "Share",
+    button2: "More Info",
+    path: "/Project1",
+    image: project1,
+    description: (
+      <Typography
+        variant="body1"
+        color="textSecondary"
+        component="p"
+        align="justify"
+      >
+        <li>
+          Used <b>Angular.js</b> and <b>Spring Boot</b> to build a full-stack
+          e-commerce platform with <b>MySQL</b> database.
+        </li>
+        <li>
+          Developed <b>RESTful APIs</b> for customers, products & shopping
+          carts. Implemented CRUD operations with Hibernate
+        </li>
+        <li>
+          Implemented dynamic product search, credit card checkout, Spring
+          security authentication.
+        </li>
+        <li>
+          Used Eureka to register microservices, Junit & Selenium for API
+          testing, and Swagger for API documentation.
         </li>
       </Typography>
     ),
@@ -82,18 +96,22 @@ const projectItems = [
     path: "/project3",
     image: project3,
     description: (
-      <Typography variant="body2" color="textSecondary" component="p">
+      <Typography variant="body1" color="textSecondary" component="p">
         <li>
-          Built a survey management web application allowing users to send
-          customized surveying emails.
+          Developed a full-stack web application to send mass email surveys to a
+          big list of users and collect feedback.
         </li>
         <li>
-          Constructed the front-end with <b>React</b> framework and
-          stored/modified state data with <b>React-Redux</b>.
+          Built with <b>React & Redux</b> as front-end, <b>Node.js</b> and
+          <b>Express</b> as back-end, and MongoDB for data persistence.
         </li>
         <li>
-          Enabled <b>OAuth</b> for user authentication and handled data
-          persistence of user credits and info in MongoDB.
+          Enabled Google OAuth for user authentication and used Stripe to handle
+          credit card payments.
+        </li>
+        <li>
+          Engaged with users via automated emails and collect users’ feedback
+          through Sendgrid.
         </li>
       </Typography>
     ),
@@ -105,7 +123,7 @@ const projectItems = [
     path: "/projects",
     image: project4,
     description: (
-      <Typography variant="body2" color="textSecondary" component="p">
+      <Typography variant="body1" color="textSecondary" component="p">
         <li>
           Crawling posts in Reddit subreddits(/WSB, /stocks) and conduct
           sentiment analysis on the most mentioned stocks to predict the
