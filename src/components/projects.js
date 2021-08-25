@@ -26,7 +26,7 @@ const useStyles = makeStyles({
 });
 const projectItems = [
   {
-    title: "Restaurant health condition rating & review",
+    title: "Restaurant rating & review",
     button1: "Share",
     button2: "More Info",
     path: "/Project2",
